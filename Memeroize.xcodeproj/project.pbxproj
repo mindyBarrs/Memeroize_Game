@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91A1059D299197DB00811EAE /* ThemeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1059C299197DB00811EAE /* ThemeCollection.swift */; };
+		91A1059F2991B26300811EAE /* ThemeCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1059E2991B26300811EAE /* ThemeCollectionManager.swift */; };
+		91AD4C51298D7910003EDDF0 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD4C50298D7910003EDDF0 /* MemoryGame.swift */; };
+		91AD4C53298D7BB3003EDDF0 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD4C52298D7BB3003EDDF0 /* EmojiMemoryGame.swift */; };
 		91E9F8AA298B333A004FC202 /* MemeroizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9F8A9298B333A004FC202 /* MemeroizeApp.swift */; };
-		91E9F8AC298B333A004FC202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9F8AB298B333A004FC202 /* ContentView.swift */; };
 		91E9F8AE298B333C004FC202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E9F8AD298B333C004FC202 /* Assets.xcassets */; };
 		91E9F8B2298B333C004FC202 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E9F8B1298B333C004FC202 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91A1059C299197DB00811EAE /* ThemeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollection.swift; sourceTree = "<group>"; };
+		91A1059E2991B26300811EAE /* ThemeCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionManager.swift; sourceTree = "<group>"; };
+		91AD4C50298D7910003EDDF0 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		91AD4C52298D7BB3003EDDF0 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		91B146222996990400105751 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		91B146232996990400105751 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		91B146242996990400105751 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		91B146252996990400105751 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		91B146262996990400105751 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		91E9F8A6298B333A004FC202 /* Memeroize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memeroize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E9F8A9298B333A004FC202 /* MemeroizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeroizeApp.swift; sourceTree = "<group>"; };
-		91E9F8AB298B333A004FC202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91E9F8AD298B333C004FC202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E9F8AF298B333C004FC202 /* Memeroize.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memeroize.entitlements; sourceTree = "<group>"; };
 		91E9F8B1298B333C004FC202 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +44,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91B146212996990400105751 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91B146222996990400105751 /* AspectVGrid.swift */,
+				91B146232996990400105751 /* SplashScreenView.swift */,
+				91B146242996990400105751 /* Cardify.swift */,
+				91B146252996990400105751 /* Pie.swift */,
+				91B146262996990400105751 /* EmojiMemoryGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91B5E02C29932B4400CC1783 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				91A1059E2991B26300811EAE /* ThemeCollectionManager.swift */,
+				91AD4C52298D7BB3003EDDF0 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91B5E02D29932B8D00CC1783 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91AD4C50298D7910003EDDF0 /* MemoryGame.swift */,
+				91A1059C299197DB00811EAE /* ThemeCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		91E9F89D298B3339004FC202 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				91E9F8A9298B333A004FC202 /* MemeroizeApp.swift */,
-				91E9F8AB298B333A004FC202 /* ContentView.swift */,
+				91B5E02D29932B8D00CC1783 /* Model */,
+				91B146212996990400105751 /* Views */,
+				91B5E02C29932B4400CC1783 /* ViewModel */,
 				91E9F8AD298B333C004FC202 /* Assets.xcassets */,
 				91E9F8AF298B333C004FC202 /* Memeroize.entitlements */,
 				91E9F8B0298B333C004FC202 /* Preview Content */,
@@ -139,8 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E9F8AC298B333A004FC202 /* ContentView.swift in Sources */,
+				91AD4C51298D7910003EDDF0 /* MemoryGame.swift in Sources */,
 				91E9F8AA298B333A004FC202 /* MemeroizeApp.swift in Sources */,
+				91A1059F2991B26300811EAE /* ThemeCollectionManager.swift in Sources */,
+				91AD4C53298D7BB3003EDDF0 /* EmojiMemoryGame.swift in Sources */,
+				91A1059D299197DB00811EAE /* ThemeCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

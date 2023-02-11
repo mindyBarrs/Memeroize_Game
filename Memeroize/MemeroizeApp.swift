@@ -11,7 +11,7 @@ import SwiftUI
 struct MemeroizeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
